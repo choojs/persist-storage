@@ -2,7 +2,7 @@
   "name": "persist-storage",
   "description": "Enable persistant storage in the browser",
   "repository": "choojs/persist-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "browser": {
     "assert": "nanoassert"
   },

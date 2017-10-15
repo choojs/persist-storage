@@ -7,7 +7,7 @@
     "assert": "nanoassert"
   },
   "scripts": {
-    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "deps": "dependency-check . && dependency-check . --extra --no-dev -i nanoassert",
     "start": "node .",
     "test": "standard && npm run deps"
   },

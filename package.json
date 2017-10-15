@@ -1,0 +1,32 @@
+{
+  "name": "persist-storage",
+  "description": "Enable persistant storage in the browser",
+  "repository": "choojs/persist-storage",
+  "version": "1.0.0",
+  "browser": {
+    "assert": "nanoassert"
+  },
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {
+    "nanoassert": "^1.1.0"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "keywords": [
+    "browser",
+    "storage",
+    "idb",
+    "indexeddb",
+    "enable",
+    "persist",
+    "toggle"
+  ],
+  "license": "Apache-2.0"
+}

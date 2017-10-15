@@ -2,11 +2,11 @@
 [![npm version][2]][3] [![build status][4]][5]
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
-Enable persistant storage in the browser.
+Enable persistent storage in the browser.
 
 By default storage such as `indexedDB` can be cleared when a device starts
 running out of space. This module is a thin wrapper around the [`StorageManager
-API`](http://devdocs.io/dom/storagemanager), checking if persistant storage is
+API`](http://devdocs.io/dom/storagemanager), checking if persistent storage is
 enabled — and enabling it if it isn't enabled yet, and able to enable it.
 
 ## Usage
@@ -24,7 +24,7 @@ persist(function (success) {
 
 ## API
 ### `persist(callback(ok))`
-Enable persistant storage. Calls a callback with a boolean that's `true` for
+Enable persistent storage. Calls a callback with a boolean that's `true` for
 success and `false` for failure to enable it.
 
 ## License

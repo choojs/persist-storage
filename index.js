@@ -3,7 +3,7 @@ var assert = require('assert')
 module.exports = persist
 
 function persist (cb) {
-  assert.equal(typeof cb, 'function', 'persist-storage: cb should be type boolean')
+  assert.equal(typeof cb, 'function', 'persist-storage: cb should be type function')
 
   if (typeof window === 'undefined' ||
     typeof window.navigator === 'undefined' ||
